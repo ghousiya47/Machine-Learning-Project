@@ -2,7 +2,7 @@
 """Dataset.ipynb
 
 
-## AI Programming with Python Nanodegree: Image Classifier Project
+## Image Classifier Project
    
 ### Code Explanation:
 
