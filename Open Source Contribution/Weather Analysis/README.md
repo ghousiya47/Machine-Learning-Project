@@ -31,12 +31,14 @@ https://www.kaggle.com/datasets/mastmustu/weather-analysis
 
 | Model                     | MSE_train | R2_train | MSE_test  | R2_test   |
 |---------------------------|-----------|----------|-----------|-----------|
-| Random Forest Regression  | 7.03      | 0.93     | 57.90     | 0.51      |
-| Linear Regression         | 17.09     | 0.84     | 60.72     | 0.49      |
-| Ridge Regression          | 85.65     | 0.22     | 96.16     | 0.20      |
-| Elastic Net Regression    | 105.0     | 0.04     | 114.7     | 0.047     |
-| Decision Tree Regression  | 0.00      | 1.00     | 61.30     | 0.49      |
-| Deep NN                   | 34.29     | 0.04     | 114.7     | 0.0471    |
+|Random Forest Regression	  | 0.0126    |	0.965291 | 0.082938	 | 0.773470  |
+|XGBoost Regression	        | 0.0056    |	0.984504 | 0.089369	 | 0.755905  |
+|Decision Tree	            | 0.58e-34  | 1.000000 | 0.144070	 | 0.606500  |
+|Riddge Regression	        | 3.58e-34	| 1.000000 | 0.144070  | 0.606500  |
+|Linear Regression	        | 0.274    	| 0.243614 | 0.281541  | 0.231021  |
+|Elastic Net Regression	    | 2.94e-01	| 0.190594 | 0.302724	 | 0.173166  |
+|Neural Network Regression	| 0.358     | 0.076272 | 0.405645	 |-0.107945  |
+
 
 ## Observations
 - Ensemble-based models such as **Random Forest and XGBoost** showed lower error and more stable performance on the test set.
