@@ -39,27 +39,6 @@ The datasets have a csv file with 3902 entries, 22 columns.
 - Month
 
 
-### Visualization and EDA of different attributes:
-
-<img alt="Distribution" src="./Images/distribution plot 1.png">
-
-<img alt="Distribution" src="./Images/distribution plot 2.png">
-
-<img alt="Regression" src="./Images/avg barometer vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/avg dewpoint vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/avg humidity vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/avg temp vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/avg windspeed vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/max temp vs rainfall per mnth.png">
-
-<img alt="Regression" src="./Images/month vs rainfall per month.png">
-
-
 **MODELS USED**
 
 | Model                     | MSE_train | R2_train | MSE_test  | R2_test   |
